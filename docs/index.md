@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
@@ -16,6 +16,4 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
-=======
 
->>>>>>> 47c1194b7854b13d1326fcc753c4231c10a9a94b
