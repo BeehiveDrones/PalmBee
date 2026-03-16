@@ -4,7 +4,7 @@ To install the PalmBee package, follow these steps:
 
 ---
 
-## 1. Install and setup ROS2 Humble First:
+#### 1. Install and setup ROS2 Humble First:
 
 ```bash
 using this documentation
@@ -13,7 +13,7 @@ https://docs.ros.org/en/humble/Installation.html
 
 ---
 
-## 2. Install and setup this specific Zed SDK:
+#### 2. Install and setup this specific Zed SDK:
 
 ```bash
 [git clone https://github.com/ep51lon/PalmBee.git](https://www.stereolabs.com/en-id/developers/release/4.2
@@ -22,7 +22,7 @@ note : this repository is based on wrapper 4.2.5 and tested on ZED SDK for JetPa
 
 ---
 
-## 3. Create the workspace directory:
+#### 3. Create the workspace directory:
 
 ```bash
 mkdir -p palmbee_ws/src
@@ -31,7 +31,7 @@ cd palmbee_ws/src
 
 ---
 
-## 4. Clone the repository:
+#### 4. Clone the repository:
 
 ```bash
 git clone https://github.com/ep51lon/PalmBee.git
@@ -39,7 +39,7 @@ git clone https://github.com/ep51lon/PalmBee.git
 
 ---
 
-## 5. Install dependencies:
+#### 5. Install dependencies:
 
 ```bash
 git clone https://github.com/ep51lon/PalmBee.git
@@ -51,7 +51,7 @@ colcon build --packages-select pb_perception
 
 ---
 
-## 6. Build the package:
+#### 6. Build the package:
 
 ```bash
 colcon build
@@ -61,7 +61,7 @@ colcon build --packages-select pb_perception
 
 ---
 
-## 7. Source the setup file:
+#### 7. Source the setup file:
 
 ```bash
 source install/setup.bash
